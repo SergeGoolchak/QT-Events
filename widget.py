@@ -3,11 +3,6 @@ from PySide2.QtGui import QMouseEvent, Qt, QKeyEvent
 from PySide2.QtCore import QObject, QEvent
 
 
-
-
-
-
-
 class Widget(QWidget):
 
 	def __init__(self, parent=None):

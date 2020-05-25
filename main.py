@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- Coding: UTF-8 -*-
 
 import os, sys
 from PySide2.QtWidgets import QApplication, QWidget
