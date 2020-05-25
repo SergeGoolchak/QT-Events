@@ -1,14 +1,14 @@
-# -*- Coding: UTF-8 -*-
+# -*- coding: UTF-8 -*-
 
 import os, sys
 from PySide2.QtWidgets import QApplication, QWidget
-from widget import *
+from MW1a import *
 
 
 def main(argv):
     app = QApplication(argv)
 
-    widget = Widget()
+    widget = FilterWidget()
     widget.show()
 
     return app.exec_()
