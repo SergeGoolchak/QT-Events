@@ -2,13 +2,13 @@
 
 import os, sys
 from PySide2.QtWidgets import QApplication, QWidget
-from MW1a import *
+from widget import *
 
 
 def main(argv):
     app = QApplication(argv)
 
-    widget = FilterWidget()
+    widget = Widget()
     widget.show()
 
     return app.exec_()
